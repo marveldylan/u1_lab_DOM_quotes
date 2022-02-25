@@ -1,17 +1,24 @@
-// TODO: [1] Select the <body>
-
-// TODO: [2] Select the <header>
-
-// TODO: [3] Select all of the elements with class "quote"
-
-// TODO: [4] Select all of the subject elements
-
-// TODO: [5] Select the navigation links
-
-// TODO: [6] Select all the quotes in the "life" section.
-
+// // TODO: [1] Select the <body>
+// const getBody = document.querySelector('body');
+// console.log(getBody);
+// // TODO: [2] Select the <header>
+// const getHead = document.querySelector('header');
+// console.log(getHead);
+// // TODO: [3] Select all of the elements with class "quote"
+// const getQuotes = document.querySelectorAll('.quote')
+// console.log(getQuotes);
+// // TODO: [4] Select all of the subject elements
+// const getSubjects = document.querySelectorAll('.subject');
+// console.log(getSubjects);
+// // TODO: [5] Select the navigation links
+// const getNavLinks = document.querySelectorAll('nav').children;
+// console.log(getNavLinks);
+// // TODO: [6] Select all the quotes in the "life" section.
+const getLifeQuotes = document.querySelector('.life').querySelectorAll('article');
+// console.log(getLifeQuotes);
 // TODO: [7] Using relative selection, select the <p> element containing the second Mark Twain quote
-
+const p = getLifeQuotes.querySelector('p');
+console.log(p);
 // TODO: [8] Do the same using a query selector
 
 // TODO: [9] Select the 'Quotes About Motivation' heading
